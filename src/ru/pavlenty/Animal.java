@@ -9,6 +9,17 @@ public class Animal {
     private int age;
     protected String type;
 
+    // final - неизменяемая
+
+    public static final int LEGS = 4;
+
+    // статичная
+    // можно обратиться без создания объекта
+    // класса
+    
+    public static String cht = "asdfasdf";
+
+
     Animal (String c, int a, String t) {
         this.age = a;
         this.color = c;
